@@ -77,11 +77,11 @@ def init_option():
     parser.add_argument('--buildlib', action='store_true')
 
     parser.add_argument('--target-arch',
-                        choices=['arm', 'x86', 'i686', 'x86_64', 'x64'],
+                        choices=['arm', 'x86', 'mipsel','i686', 'x86_64', 'x64'],
                         default=platform.arch())
 
     parser.add_argument('--target-os',
-                        choices=['linux', 'darwin', 'osx', 'nuttx'],
+                        choices=['linux','openwrt', 'darwin', 'osx', 'nuttx'],
                         default=platform.os())
 
     parser.add_argument('--target-board', default='')
