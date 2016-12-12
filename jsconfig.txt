@@ -1,0 +1,3 @@
+--iotjs-include-module felicia 
+--iotjs-include-module Rx
+
