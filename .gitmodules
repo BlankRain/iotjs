@@ -1,9 +1,9 @@
 [submodule "deps/jerry"]
 	path = deps/jerry
-	url = https://github.com/blankrain/jerryscript.git
+	url = https://github.com/BlankRain/felixjerryscript.git
 [submodule "deps/http-parser"]
 	path = deps/http-parser
-	url = https://github.com/blankrain/http-parser.git
+	url = https://github.com/BlankRain/felixhttp-parser.git
 [submodule "deps/libtuv"]
 	path = deps/libtuv
-	url = https://github.com/blankrain/libtuv.git
+	url = https://github.com/BlankRain/felixlibtuv.git
