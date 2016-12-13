@@ -28,7 +28,7 @@ Note: should config the toolchain first.
 ### How to Test
 
 ```bash
-build/x86_64-linux/debug/bin/iotjs tools/check_test.js
+build/x86_64-linux/debug/bin/iotjs ./testrx.js
 ```
 
 
